@@ -1,0 +1,84 @@
+
+title {
+    color:red;
+}
+
+
+
+body {
+
+    background-image: url(../IMAGES/image1.jpg);
+    
+    
+}
+
+
+#navbar{
+    float:left;
+    height:100%;
+    overflow: hidden;
+  margin: 0;
+padding: 0;
+  width: 310px;
+   
+}
+
+nav{
+    margin-bottom: 3px blue;
+    height:300px;
+    display:block;
+    position:fixed;
+}
+
+ 
+
+
+
+#navbar li{
+    list-style: none;
+    color: green;
+     padding: 22px;
+     padding-left: 45px;
+     border: 2px solid blue;
+     margin-left: -35px;
+     width: 97%;
+     border-bottom:1px;
+    
+    
+}
+
+a{
+    text-decoration:none;
+}
+
+#navbar li:hover{
+    color: brown;
+}
+
+
+
+
+main {
+    margin-left: 340px;
+    position: relative;
+    font-family:  sans-serif;
+}
+
+header {
+    font-weight:italic;
+    font-size:30px;
+    color:green;
+}
+
+code {
+    color:blue;
+    font-size:15px;
+}
+
+ #VARIABLES ul {
+    font-weight:bold;
+}
+
+
+
+
