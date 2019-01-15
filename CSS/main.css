@@ -3,11 +3,20 @@ title {
     color:red;
 }
 
-
+@media (min-width:200px){
+    #navbar{
+        float:none;
+    }
+}
 
 body {
 
     background-image: url(../IMAGES/image1.jpg);
+    height: 700vh;
+    width:100%;
+    background-position:center 0;
+    background-size:cover;
+    background-repeat: no-repeat;
     
     
 }

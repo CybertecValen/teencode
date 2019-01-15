@@ -7,33 +7,36 @@
 <body>
     <!--this is the nav bar tag-->
     <nav id="navbar"> 
+        <!--nav-links in the nav bar-->
+
         <header>  OBJECT ORIENTED PROGRAMING  </header> </br> </br>
-        <a class="nav-link" href="# JAVA INTRODUCTION"> 
+        <a class="nav-link" href="#java-introduction"> 
             <li>INTRODUCTION</li> 
         </a> </br>
-        <a class="nav-link" href="#VARIABLES">
+        <a class="nav-link" href="#variables">
             <li>VARIABLES </li> 
         </a> </br>
-        <a class="nav-link" href="#CONTROL STATEMENTS">
+        <a class="nav-link" href="#control-statements">
             <li> CONTROL STATEMENTS</li>
              </a> </br>
-        <a class="nav-link" href="#JAVA OBJECT CLASS ">
+        <a class="nav-link" href="#java-object-class ">
             <li> JAVA OBJECT CLASS</li> 
         </a> </br>
-        <a class="nav-link" href="#JAVA INHERINTANCE">
+        <a class="nav-link" href="#java-inheritance">
             <li> JAVA INHERITANCE</li>
              </a> </br>
-        <a class="nav-link" href="#ARRAYS"> 
+        <a class="nav-link" href="#arrays"> 
             <li> ARRAYS</li>
         </a> </br>
          </br> 
+
     </nav>
 
 </br>
     <!--main tag-->
     <main id="main-doc"> 
         <!--section each with a class-->
-        <section class="main-section" id=" JAVA INTRODUCTION" >
+        <section class="main-section" id="java-introduction" >
             <!--header of the first section-->
             
             <article>
@@ -44,7 +47,8 @@
                 <p> </p>
             </article>
         </section>
-        <section class="main-section" id="VARIABLES">
+        <!--second section for the id VARIABLES -->
+        <section class="main-section" id="variables">
         <header>VARIABLES</header> </br>
         A variable is a container which 
         holds the value while the java 
@@ -58,6 +62,7 @@
          <li> instance</li>
          <li>static </li>
         </br>
+
          <P> Variable is name of reserved area allocated in memory
                <ul>  1) Local Variable</ul>
                 A variable declared inside the body of the method is called local variable. You can use this variable only within that method and the other methods in the class aren't even aware that the variable exists.
@@ -73,6 +78,7 @@
                 A variable which is declared as static is called static variable. It cannot be local. You can create a single copy of static variable and share among all the instances of the class. Memory allocation for static variable happens only once when the class is loaded in the memory.
                 
                 <h3> EXAMPLE OF A VARIABLE IN JAVA </h3>
+                <!--code element within the section-->
                 <code>
                     class A{ </br> 
                         int data=50;//instance variable </br> 
@@ -84,7 +90,9 @@
                 </code> 
          </P>
         </section>
-        <section class="main-section" id="CONTROL STATEMENTS"> 
+        <!--section for the ID CONTROL STATEMKENTS-->
+
+        <section class="main-section" id="control-statements"> 
             <header> CONTROL STATEMENTS</header>
              <p>In Java we have controlo stsement6s such as "if else","Loops", "Switch" and others .these ease programing in java . </p>
             <h3>  Java If-else Statement</h3>
@@ -113,7 +121,7 @@
               like Byte, Short, Int, and Long
 
         </section> </br>
-        <section class="main-section" id="JAVA OBJECT CLASS">
+        <section class="main-section" id="java-object-class">
             <header>JAVA OBJECT CLASS </header>
             <P> Object-Oriented Programming is a paradigm that provides many concepts 
                 such as inheritance, data binding, polymorphism, etc.</P>
@@ -145,7 +153,7 @@ A class in Java can contain: </br> </br>
             } </br> 
     </code>  </br>
      </section>
-        <section class="main-section" id="JAVA INHERINTANCE">
+        <section class="main-section" id="java-inheritance">
            <header>  JAVA INHERINTANCE</header>
             <P> Inheritance in Java is a mechanism in which one object acquires 
                 all the properties and behaviors of a parent object.
@@ -163,7 +171,7 @@ A class in Java can contain: </br> </br>
 
     </section> </br>
 
-        <section class="main-section" id="ARRAYS">
+        <section class="main-section" id="arrays">
             <header>ARRAYS</header> 
             <p> Java array is an object which contains elements of a similar data type. It is a data structure where we store similar elements. We can store only a fixed set of elements in a Java array.
 
@@ -204,7 +212,7 @@ a[2]=70;  </br>
 a[3]=40;  </br>
 a[4]=50;  </br>
 //traversing array </br>  
-for(int i=0;i<a.length;i++)></a.length>//length is the property of array </br>  
+for(int i=0; i<a.length; i++)></a.length>//length is the property of array </br>  
 System.out.println(a[i]);  </br>
 }}  </br>
 </code>
